@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@vituum/vite-plugin-pug": "^2.0.1",
+    "autoprefixer": "^10.7.0",
     "sass": "^1.108.2",
     "vite": "8.3.3",
     "vituum": "^1.2.0"
