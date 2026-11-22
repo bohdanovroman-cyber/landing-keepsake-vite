@@ -27,7 +27,6 @@ $color-success: #6acb00;
 $color-error: #ed1a3b;
 $color-warning: #ffb11f;
 
-
 // Bootstrap reboot
 $enable-hover-media-query: false;
 
@@ -58,31 +57,23 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1600px
+  xxl: 1600px,
 );
 
 // Grid
 $grid-columns: 12;
 $grid-fluid: false;
-$grid-gutter-widths: (
-  down sm: 40px,
-  up md: 30px,
-);
+$grid-gutter-widths: (down sm: 40px, up md: 30px);
 
 $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px
+  xl: 1140px,
 );
 
 // Positioning
-$z-indexes: (
-  'modal',
-  'intercom',
-  'tooltip',
-  'body',
-);
+$z-indexes: ('modal', 'intercom', 'tooltip', 'body');
 
 // Spacing
 $spacing-sizes: (
@@ -106,7 +97,7 @@ $typography: (
       font-size: $font-size-base,
       font-weight: 400,
       line-height: 30px,
-    )
+    ),
   ),
   sm: (
     base: (
@@ -152,7 +143,7 @@ $typography: (
     md: (
       font-size: 40px,
       line-height: 44px,
-    )
+    ),
   ),
   h3: (
     base: (
@@ -169,7 +160,7 @@ $typography: (
     md: (
       font-size: 30px,
       line-height: 33px,
-    )
+    ),
   ),
   h4: (
     base: (
@@ -183,7 +174,7 @@ $typography: (
     md: (
       font-size: 30px,
       line-height: 33px,
-    )
+    ),
   ),
   h5: (
     base: (
@@ -197,7 +188,7 @@ $typography: (
     sm: (
       font-size: 11px,
       line-height: 30px,
-    )
+    ),
   ),
   h6: (
     base: (
@@ -213,14 +204,14 @@ $typography: (
       font-size: 18px,
       font-weight: 500,
       letter-spacing: 2px,
-      text-transform: uppercase
+      text-transform: uppercase,
     ),
     sm: (
       font-family: $font-family-base,
       font-size: 14px,
       font-weight: 700,
       letter-spacing: 1px,
-      text-transform: uppercase
+      text-transform: uppercase,
     ),
   ),
   nav: (
@@ -232,16 +223,17 @@ $typography: (
   ),
 );
 
-
 // Buttons
 $enable-rounded: true;
 $btn-focus-width: 2px;
 $enable-shadows: false;
-$btn-active-box-shadow: inset 0 3px 5px rgba($black, .125);
-$btn-box-shadow: inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075);
+$btn-active-box-shadow: inset 0 3px 5px rgba($black, 0.125);
+$btn-box-shadow:
+  inset 0 1px 0 rgba($white, 0.15),
+  0 1px 1px rgba($black, 0.075);
 
 // Gradients
-$enable-gradients:false;
+$enable-gradients: false;
 
 // Border radius
 $border-radius: 5px;
